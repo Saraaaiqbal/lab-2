@@ -1,0 +1,26 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace sum
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {  
+           string firstnum, secondnum; 
+            int num1, num2, sum;
+            Console.WriteLine("ENTER FIRST NUMBER");
+            firstnum =Console.ReadLine();
+            Console.WriteLine("ENTER SECOND NUMBER");
+            secondnum = Console.ReadLine();
+            num1 = int.Parse(firstnum);
+            num2 = int.Parse(secondnum);
+            sum =num1+num2;
+            Console.WriteLine("sum is {0}",sum);
+            Console.ReadKey();
+
+        }
+    }
+}
