@@ -1,0 +1,34 @@
+                                       Radius,Dimeter,Circumference and Area
+Coding:
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace ConsoleApplication6
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int rad, di, cir, area;
+            string num;
+            Console.Write("Enter any number radius to find diameter,circumference and area of a circle : ");
+            num = Console.ReadLine();
+            rad = Int32.Parse(num);
+            di = 2 * rad;
+            cir = 2 * di * rad;
+            area = di * rad * rad;
+            Console.WriteLine("Diameter of circle is : {0}", di);
+            Console.WriteLine("Circumference of circle is : {0}", cir);
+            Console.WriteLine("Area of circle is : {0}", area);
+            Console.ReadKey();
+
+
+        }
+    }
+}
+
+ 
+
+
