@@ -1,0 +1,26 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace ConsoleApplication24
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int a, num, fact;
+
+            Console.WriteLine("Please enter the number to fectorized");
+            num = int.Parse(Console.ReadLine());
+            fact = num;
+
+            for (a = num- 1; a >= 1; a--)
+            {
+                fact = fact * a;
+            }
+            Console.WriteLine("The factorize number is {1}", a, fact);
+            Console.ReadLine();
+        }
+    }
+}
